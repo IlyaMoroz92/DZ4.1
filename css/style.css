@@ -1,0 +1,122 @@
+body {
+    max-width: 1400px;
+    background: url(/img/background28.jpg) fixed;
+    font-size: 16px;
+    font-family: "Permanent marker";
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+/* -----------------------------------------------HEADER------------------------ */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.liheader {
+    display: inline;
+    padding:  10px ;
+}
+
+.mainheader {
+    align-self: flex-end;
+}
+
+.logoheader {
+    padding-left: 30px;
+}
+
+.linkheader:hover {
+    font-size: 20px;
+    color:rgb(10, 22, 192);
+}
+
+.linkheader:active {
+    font-weight: 700;
+}
+/* ----------------------------------------------------CONTENT--------------- */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+
+/* ------------------------------------------------------CONTENT LEFT BLOCK---- */
+.liblockleft {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.liblockleft {
+    margin-bottom: 45px;
+    font-size: 21px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.linkblockleft:hover {
+    color: rgb(16, 224, 179);
+    text-shadow: 3px 3px 10px;
+}
+/* ------------------------------------------------------CONTENT CENTER BLOCK---- */
+.blockcenter {
+    width: 60%;
+}
+
+.headerarticle {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footerarticle {
+    text-align: right;
+    color: blue;
+    font-style: oblique;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    box-sizing: content-box;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+/* ------------------------------------------------------CONTENT RIGHT BLOCK---- */
+.picture1 img {
+    width: 180px;
+    padding-top: 30px;
+}
+
+/* ------------------------------------------------------FOOTER--------------- */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.licolfooter {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.licolfooter:hover {
+    font-weight: 700;
+    text-shadow: 0px 0px 15px rgb(24, 8, 82);
+}
+
+.logofooter {
+    align-self: flex-end;
+}
