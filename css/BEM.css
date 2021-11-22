@@ -1,0 +1,7 @@
+.header__li_hover:hover {
+    text-shadow: 2px 2px 5px blue ;
+}
+
+.container__content_margin10px {
+    margin-top: 20px;
+}
